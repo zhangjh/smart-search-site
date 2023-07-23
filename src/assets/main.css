@@ -1,17 +1,155 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
+body {
+  background-color: #2b73af;
+  font-size: 15px;
+  color: white;
   font-weight: normal;
+}
+
+#app {
+  display: flex;
+  margin: 10px;
+  padding: 2rem;
+}
+
+.main-content {
+  display: flex;
+  min-width: 90vw;
+  margin: 10px;
+  /* 主轴为列 */
+  flex-direction: column;
+  /* 主轴上居中对齐 */
+  justify-content: center;
+  /* 交叉轴上居中对齐 */
+  align-items: center;
+}
+
+.logo-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-wrap img {
+  width: 6rem;
+  margin: 10px;
+}
+
+.logo-wrap .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-wrap .desc .keyword {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-wrap .desc .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-wrap .desc .keyword {
+  color: black;
+  font-size: 0.9rem;
+}
+
+.keyword .item {
+  margin: 5px;
+  padding: 2px;
+  background-color: #e2d849;
+}
+
+.product-desc-wrap {
+  display: flex;
+  max-width: 60vw;
+  margin: 20px;
+  padding: 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  color: #14283d;
+  font-size: 0.9rem;
+  background-color: #95c1e4;
+}
+
+.image-show-wrap {
+  display: flex;
+  min-width: 80%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1f3e5b;
+}
+
+.image-show-wrap .item {
+  width: 20%;
+}
+
+.image-show-wrap .item img {
+  width: 100%;
+  padding: 15px;
+  /* border: 1px solid red; */
+}
+
+.video-show-wrap {
+  display: flex;
+  max-width: 60vw;
+  margin: 20px;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-show-wrap .item {
+  margin: 20px;
+}
+
+.video-show-wrap .item p {
+  text-align: center;
+}
+
+.video-show-wrap .item video {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+}
+
+.download-wrap button {
+  padding: 0.75rem 1.5rem;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.contact-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.help-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.privacy, .user-guide {
+  margin: 0 15px;
+  text-decoration: underline;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: white;
   transition: 0.4s;
 }
 
@@ -23,13 +161,6 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    
   }
 }
