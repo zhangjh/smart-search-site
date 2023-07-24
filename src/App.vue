@@ -11,7 +11,7 @@
     <div class="logo-wrap">
       <img src="/src/assets/慧搜logo.png" alt="慧搜" />
       <div class="desc">
-        <div class="title">慧搜：AI文图搜索，快速定位记忆的瞬间</div>
+        <div class="title">慧搜--AI文图搜索，快速定位记忆的瞬间</div>
         <div class="keyword">
           <div class="item">OpenAI<br>强力模型</div>
           <div class="item">语义检索<br>秒出结果</div>
