@@ -71,15 +71,16 @@ body {
   padding: 5px;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   color: #14283d;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   background-color: #95c1e4;
 }
 
 .image-show-wrap {
   display: flex;
   min-width: 80%;
+  margin: 20px;
   flex-direction: row;
   justify-content: center;
   background-color: #1f3e5b;
@@ -107,6 +108,7 @@ body {
 
 .video-show-wrap .item {
   margin: 20px;
+  max-width: 350px;
 }
 
 .video-show-wrap .item p {
