@@ -48,7 +48,6 @@
         justify-content: center;
     }
     .guide-content-wrap .content {
-        width: 70vw;
         display: flex;
         flex-direction: column;
         line-height: 40px;
@@ -75,6 +74,18 @@
     .dark {
         background-color: #5da1d3;
         color: #f3f7fc;
+    }
+
+    @media(width < 1024px) {
+        .guide-content-wrap .content {
+            width: 90vw;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .guide-content-wrap .content {
+            width: 70vw;
+        }
     }
 
 </style>

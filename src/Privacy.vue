@@ -18,15 +18,29 @@
 
 <style>
     .privacy-content-wrap {
-        width: 90vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
     .privacy-content-wrap .content {
-        width: 50vw;
         display: flex;
         flex-direction: column;
         line-height: 40px;
+    }
+    @media(width < 1024px) {
+        h1 {
+            margin: 20px 0;
+        }
+        .privacy-content-wrap .content {
+            margin: 10px;
+        }
+    }
+    @media(min-width: 1024px) {
+        .privacy-content-wrap {
+            width: 90vw;
+        }
+        .privacy-content-wrap .content { 
+            width: 50vw;
+        }
     }
 </style>
