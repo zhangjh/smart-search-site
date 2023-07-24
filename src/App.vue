@@ -13,9 +13,9 @@
       <div class="desc">
         <div class="title">慧搜：AI文图搜索，快速定位记忆的瞬间</div>
         <div class="keyword">
-          <div class="item">OpenAI强力模型</div>
-          <div class="item">语义检索秒出结果</div>
-          <div class="item">无需联网本地运行</div>
+          <div class="item">OpenAI<br>强力模型</div>
+          <div class="item">语义检索<br>秒出结果</div>
+          <div class="item">无需联网<br>本地运行</div>
         </div>
       </div>
     </div>

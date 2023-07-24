@@ -49,7 +49,6 @@ body {
 }
 
 .keyword .item {
-  margin: 5px;
   padding: 2px;
   background-color: #e2d849;
 }
@@ -163,6 +162,10 @@ a,
     font-weight: bold;
   }
 
+  .keyword .item {
+    margin: 2px;
+  }
+
   .image-show-wrap {
     display: flex;
     min-width: 80%;
@@ -214,6 +217,10 @@ a,
   .logo-wrap .desc .title {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  .keyword .item {
+    margin: 5px;
   }
 
   .product-desc-wrap {
