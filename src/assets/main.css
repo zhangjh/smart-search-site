@@ -41,6 +41,7 @@ body {
 .logo-wrap .desc .keyword {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .logo-wrap .desc .keyword {
@@ -117,6 +118,11 @@ body {
 .contact-wrap {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.contact-item {
+  margin: 0 15px;
 }
 
 .help-wrap {
