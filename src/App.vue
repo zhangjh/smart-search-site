@@ -49,11 +49,14 @@
     document.addEventListener('click', hideWechat, {once: true});
   };
 
-  const hideMail = () => {
+  const hideMail = (e) => {
+    if(e.target == document.querySelector("#mail")) {
+      return;
+    }
     mailStyle.value = defaultMailStyle;
   };
 
-  const hideWechat = () => {
+  const hideWechat = (e) => {
     wechatImgStyle.value = defaultWechatImgStyle;
   };
 
@@ -138,7 +141,7 @@
     <img src="/src/assets/wechat.jpeg" :style="wechatImgStyle" />
   </div>
   <div class="mail-container">
-    <div :style="mailStyle">zhangjh_initial@126.com</div>
+    <div :style="mailStyle" id="mail">zhangjh_initial@126.com</div>
   </div>
   
 </template>
