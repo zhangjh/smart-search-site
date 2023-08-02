@@ -14,7 +14,10 @@ export default defineConfig({
       input: {
         main: "index.html",
         privacy: "privacy.html",
-        guide: "guide.html"
+        guide: "guide.html",
+        en: "index_en.html",
+        privacyEn: "privacy_en.html",
+        guideEn: "guide_en.html"
       }
     }
   },
