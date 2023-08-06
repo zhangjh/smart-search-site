@@ -104,9 +104,16 @@ body {
   max-width: 800px;
 }
 
-.download-wrap button {
-  padding: 0.75rem 1.5rem;
-  color: black;
+.download-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.download-item {
+  margin: 15px;
+  width: 35px;
 }
 
 .footer {
