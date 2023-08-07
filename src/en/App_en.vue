@@ -91,32 +91,32 @@
 
     <div class="image-show-wrap">
       <div class="item">
-        <img src="/src/assets/ss1.png" />
+        <img src="/src/assets/en/ss1.jpg" />
       </div>
       <div class="item">
-        <img src="/src/assets/ss2.jpeg" />
+        <img src="/src/assets/en/ss2.jpg" />
       </div>
       <div class="item">
-        <img src="/src/assets/ss3.png" />
+        <img src="/src/assets/en/ss3.jpg" />
       </div>
       <div class="item">
-        <img src="/src/assets/ss4.png" />
+        <img src="/src/assets/en/ss4.jpg" />
       </div>
       <div class="item">
-        <img src="/src/assets/ss5.png" />
+        <img src="/src/assets/en/ss5.jpg" />
       </div>
     </div>
 
     <div class="video-show-wrap">
       <div class="item">
         <p>Index Building：</p>
-        <video src="/src/assets/索引构建.mov" controls>  
+        <video src="/src/assets/en/构建.mov" controls>  
           Your browser does not support HTML5 video.
         </video>  
       </div>
       <div class="item">
         <p>Images Searching：</p>
-        <video src="/src/assets/检索.mov" controls>  
+        <video src="/src/assets/en/检索.mov" controls>  
           Your browser does not support HTML5 video.
         </video>  
       </div>
