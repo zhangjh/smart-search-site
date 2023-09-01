@@ -106,13 +106,13 @@
     <div class="video-show-wrap">
       <div class="item">
         <p>构建索引：</p>
-        <video src="/src/assets/索引构建.mov" controls>  
+        <video src="/src/assets/索引构建.mp4" controls>  
           您的浏览器不支持 HTML5 视频。  
         </video>  
       </div>
       <div class="item">
         <p>图片检索：</p>
-        <video src="/src/assets/检索.mov" controls>  
+        <video src="/src/assets/检索.mp4" controls>  
           您的浏览器不支持 HTML5 视频。  
         </video>  
       </div>

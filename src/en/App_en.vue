@@ -116,7 +116,7 @@
       </div>
       <div class="item">
         <p>Images Searching：</p>
-        <video src="/src/assets/en/检索.mov" controls>  
+        <video src="/src/assets/en/检索.mp4" controls>  
           Your browser does not support HTML5 video.
         </video>  
       </div>
