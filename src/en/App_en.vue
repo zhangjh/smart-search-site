@@ -110,7 +110,7 @@
     <div class="video-show-wrap">
       <div class="item">
         <p>Index Building：</p>
-        <video src="/src/assets/en/构建.mov" controls>  
+        <video src="/src/assets/en/构建.mp4" controls>  
           Your browser does not support HTML5 video.
         </video>  
       </div>
