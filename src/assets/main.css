@@ -138,7 +138,7 @@ body {
   justify-content: center;
 }
 
-.privacy, .user-guide {
+.privacy, .user-guide, .english-version, .chinese-version {
   margin: 0 15px;
   text-decoration: underline;
 }
