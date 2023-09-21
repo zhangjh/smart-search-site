@@ -142,7 +142,7 @@
         </div>
       </div>
       <div class="help-wrap">
-        <a class="english-version" href="https://ss.zhangjh.me/index_en.html">SmartSearch</a>
+        <a class="english-version" href="/index_en.html">SmartSearch</a>
         <a class="privacy" href="/privacy.html">隐私声明</a>
         <a class="user-guide" href="/guide.html">使用说明</a>
       </div>

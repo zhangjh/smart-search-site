@@ -139,7 +139,7 @@
         </div>
       </div>
       <div class="help-wrap">
-        <a class="chinese-version" href="https://ss.zhangjh.me">慧搜</a>
+        <a class="chinese-version" href="/index.html">慧搜</a>
         <a class="privacy" href="/privacy_en.html">Privacy Policy</a>
         <a class="user-guide" href="/guide_en.html">User's Guide</a>
       </div>
