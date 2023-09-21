@@ -17,7 +17,8 @@ export default defineConfig({
         guide: "guide.html",
         en: "index_en.html",
         privacyEn: "privacy_en.html",
-        guideEn: "guide_en.html"
+        guideEn: "guide_en.html",
+        privacyEmoji: "privacy_emoji.html"
       }
     }
   },
