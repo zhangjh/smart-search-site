@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp -r src/assets/model dist/",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
