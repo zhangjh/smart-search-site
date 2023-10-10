@@ -18,7 +18,8 @@ export default defineConfig({
         en: "index_en.html",
         privacyEn: "privacy_en.html",
         guideEn: "guide_en.html",
-        privacyEmoji: "privacy_emoji.html"
+        privacyEmoji: "privacy_emoji.html",
+        ads: "ads.txt"
       }
     }
   },
