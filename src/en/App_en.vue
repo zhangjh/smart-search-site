@@ -12,7 +12,7 @@
       <div class="hero-content">
         <div class="logo-section">
           <div class="logo-container">
-            <img src="/src/assets/慧搜logo.png" alt="SmartSearch" class="logo-image" />
+            <img src="/assets/慧搜logo.png" alt="SmartSearch" class="logo-image" />
           </div>
           <div class="hero-text">
             <h1 class="main-title">SmartSearch</h1>
@@ -34,7 +34,7 @@
           <h2 class="section-title">Intelligent Search at Your Fingertips</h2>
           <div class="description-content">
             <p class="highlight-text">
-              SmartSearch is an intelligent document and image search application based on OpenAI, 
+              SmartSearch is an intelligent document and image search application based on OpenAI CLIP model, 
               running entirely on the local environment of the phone without the need for an internet connection. 
               It can quickly locate mobile phone pictures by using text keywords, photo descriptions, 
               or even text-based photo categorization information.
@@ -61,7 +61,7 @@
         <h2 class="section-title">App Screenshots</h2>
         <div class="screenshots-grid">
           <div class="screenshot-item" v-for="i in 5" :key="i">
-            <img :src="`/src/assets/en/ss${i}.jpg`" :alt="`App Screenshot ${i}`" />
+            <img :src="`/assets/en/ss${i}.jpg`" :alt="`App Screenshot ${i}`" />
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@
           <div class="video-card">
             <h3 class="video-title">Index Building</h3>
             <div class="video-container">
-              <video src="/src/assets/en/构建.mp4" controls>
+              <video src="/assets/en/构建.mp4" controls>
                 Your browser does not support HTML5 video.
               </video>
             </div>
@@ -83,7 +83,7 @@
           <div class="video-card">
             <h3 class="video-title">Images Searching</h3>
             <div class="video-container">
-              <video src="/src/assets/en/检索.mp4" controls>
+              <video src="/assets/en/检索.mp4" controls>
                 Your browser does not support HTML5 video.
               </video>
             </div>

@@ -12,7 +12,7 @@
       <div class="hero-content">
         <div class="logo-section">
           <div class="logo-container">
-            <img src="/src/assets/慧搜logo.png" alt="慧搜" class="logo-image" />
+            <img src="/assets/慧搜logo.png" alt="慧搜" class="logo-image" />
           </div>
           <div class="hero-text">
             <h1 class="main-title">慧搜</h1>
@@ -57,7 +57,7 @@
         <h2 class="section-title">应用截图</h2>
         <div class="screenshots-grid">
           <div class="screenshot-item" v-for="i in 5" :key="i">
-            <img :src="`/src/assets/ss${i === 2 ? i + '.jpeg' : i + '.png'}`" :alt="`应用截图 ${i}`" />
+            <img :src="`/assets/ss${i === 2 ? i + '.jpeg' : i + '.png'}`" :alt="`应用截图 ${i}`" />
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
           <div class="video-card">
             <h3 class="video-title">构建索引</h3>
             <div class="video-container">
-              <video src="/src/assets/索引构建.mp4" controls>
+              <video src="/assets/索引构建.mp4" controls>
                 您的浏览器不支持 HTML5 视频。
               </video>
             </div>
@@ -79,7 +79,7 @@
           <div class="video-card">
             <h3 class="video-title">图片检索</h3>
             <div class="video-container">
-              <video src="/src/assets/检索.mp4" controls>
+              <video src="/assets/检索.mp4" controls>
                 您的浏览器不支持 HTML5 视频。
               </video>
             </div>
